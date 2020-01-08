@@ -22,7 +22,7 @@ public class dialogue : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) && playerInRange)
+        if (Input.GetKeyDown(KeyCode.E) && playerInRange)
         {
             if (dialogBox.activeInHierarchy)
             {
